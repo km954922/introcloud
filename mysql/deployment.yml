@@ -18,8 +18,8 @@ spec:
       - name: mysql
         image: km954922/mysql:latest
         env:
-        - name: 1234
-        value: "hello"
+        - name: MYSQL_ROOT_PASSWORD
+        value: "1234"
         resources:
           requests:
             cpu: 10m
