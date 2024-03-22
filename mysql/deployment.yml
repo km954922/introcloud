@@ -17,6 +17,8 @@ spec:
       containers:
       - name: mysql
         image: km954922/mysql:latest
+        resources:
+        requests:
         env:
         - name: MYSQL_ROOT_PASSWORD
         value: 1234
