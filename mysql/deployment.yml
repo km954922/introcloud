@@ -15,13 +15,12 @@ spec:
         role: app
     spec:
       containers:
-      - name: mysql
+      - name: app
         image: km954922/mysql:latest
-        resources:
-        requests:
-        env:
-        - name: MYSQL_ROOT_PASSWORD
-        value: 1234
         resources:
           requests:
             cpu: 10m
+        env:
+        - name: MYSQL_ROOT_PASSWORD
+          value: 1234
+
