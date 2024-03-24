@@ -22,5 +22,5 @@ spec:
             cpu: 10m
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: 1234
+          value: root_password
 
