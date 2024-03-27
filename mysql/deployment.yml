@@ -16,12 +16,12 @@ spec:
     spec:
       containers:
       - name: app
-        image: rsayre14/csc468:MySQLServer
+        image: km954922/mysql:latest
         resources:
           requests:
             cpu: 10m
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: my_root_password
+          value: root_password
         ports:
         - containerPort: 3306
