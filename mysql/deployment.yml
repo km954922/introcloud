@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: km954922/mysql:latest
+        image: rsayre14/csc468:MySQLServer
         resources:
           requests:
             cpu: 10m
