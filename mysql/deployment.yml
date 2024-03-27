@@ -22,6 +22,6 @@ spec:
             cpu: 10m
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: root_password
+          value: my_root_password
         ports:
         - containerPort: 3306
